@@ -10,7 +10,7 @@ class PlayState extends FlxState
 	{
 		FlxG.camera.bgColor = 0xFFFF0000;
 
-		final text:FlxText = new FlxText(10, 10, 100, "Hello, World!", 72);
+		final text:FlxText = new FlxText(10, 10, 0, "Hello, World!", 72);
 		text.screenCenter();
 		add(text);
 
